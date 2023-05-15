@@ -1,5 +1,7 @@
 # Access Scheduler Finalized Project
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lhUTKjtogSU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 <h3>What is the project about?</h1>
 
 This project is implemented in a way where it has a MLFQ scheduler and a mystery scheduler. The MLFQ scheduler is known to have fairness, good response time and contain queues of different priorities. And there is the mystery scheduler (my own scheduler) which is a little different from the rest of other schedulers from CS 377. While the project is an extension to the CS 377 Scheduler project, it's implemented in way where the user can interact the terminal as if it's a login authenticator with different users. These list of users will have levels of access to folders depending on their privilege level. The workload from the txt file contains each user along with the proccess workloads assigned. 
