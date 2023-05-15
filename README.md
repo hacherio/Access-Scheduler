@@ -1,6 +1,7 @@
 # Access Scheduler Finalized Project
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lhUTKjtogSU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<h3> Presentation Video </h1>
+https://youtu.be/lhUTKjtogSU
 
 <h3>What is the project about?</h1>
 
