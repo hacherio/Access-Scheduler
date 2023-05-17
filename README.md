@@ -84,6 +84,12 @@ OR
 
 - Direct Executions
 
+## Citation
+* [Geeks For Geeks MLFQ](https://www.geeksforgeeks.org/multilevel-feedback-queue-scheduling-mlfq-cpu-scheduling/)
+* [Scheduling Textbook](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf)
+
+
+
 
 
 
