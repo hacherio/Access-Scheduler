@@ -41,23 +41,20 @@ OR
 ```
 2
 ```
-### Display
-#### The ouput should be similar to this:
+### Output
+#### It should display something similar to this:
 >Your account's privilege level is 2<br>
 >Folder level-2 and higher are accessible<br>
 >Successfully logged in!<br>
->Workload:
-         Arrival=0, Duration=3, Privilege=2
-         Arrival=0, Duration=4, Privilege=0
-         Arrival=0, Duration=6, Privilege=1
-
-Processes:
-         User Privilege=0, arrival=0, duration=0, first_run=1, completion=9
-         User Privilege=1, arrival=0, duration=0, first_run=7, completion=12
-         User Privilege=2, arrival=0, duration=0, first_run=0, completion=13
-<br>
+>Workload:<br>
+>        Arrival=0, Duration=3, Privilege=2<br>
+>        Arrival=0, Duration=4, Privilege=0<br>
+>        Arrival=0, Duration=6, Privilege=1<br>
+>Processes:<br>
+>        User Privilege=0, arrival=0, duration=0, first_run=1, completion=9<br>
+>        User Privilege=1, arrival=0, duration=0, first_run=7, completion=12<br>
+>        User Privilege=2, arrival=0, duration=0, first_run=0, completion=13<br>
 >Average Turnaround Time: 11.3333<br>
-
 >Average Response Time:   2.66667 <br>
 
 ### Edit workload txt
