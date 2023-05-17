@@ -1,8 +1,7 @@
 # Access Scheduler Finalized Project
 
 <h3> Presentation Video - https://youtu.be/lhUTKjtogSU </h1>
-
-
+__________________________________________________________________
 ## What is the project about?
 
 This project is implemented in a way where it has a MLFQ scheduler and a mystery scheduler. The MLFQ scheduler is known to have fairness, good response time and contain queues of different priorities. There is the mystery scheduler which is a little different from the rest of other schedulers from CS 377. While the project is an extension to the CS 377 Scheduler project, it's implemented in way where the user can interact with the terminal as if it's a login authenticator. There are a list of users which will have different privilege levels in order to access specific folders. The workloads from a txt file contains each user that are connected to each proccess workloads assigned. 
@@ -12,22 +11,22 @@ How this is implemented is basically how each processes are ordered and prioriti
 If the process is prioritzed first, then the privilege level of this process should be 0. With that being said, the process would have access to all folders (level-#) since 0 is its "highest" and most prioritized form of privilege level. And if the user's level is 2, then it would only have access to folder level-2. Other folders, they won't be able to access it.
 
 The main idea of this project is to understand how MLFQ is implemented when ordering these processes using queues and understanding how these schedulers determine the efficiency and performance of these processes based on its own algorithm.
-
+__________________________________________________________________
 ## Instructions to get started:
 ### Installation
 1. Clone repositoy
 ```
 git clone https://github.com/hacherio/Access-Scheduler
 ```
+__________________________________________________________________
 ### Make
 2. Type make to build the project
 ```
 make
 ```
 __________________________________________________________________
-### (BEFORE YOU RUN: REMOVE ALL TXT FILES IN THE LEVEL FOLDERS!!!)
+### BEFORE YOU RUN: REMOVE ALL TXT FILES IN THE LEVEL FOLDERS!!!
 __________________________________________________________________
-
 ### Run
 3. Run login_app with any user (preferably on loginStorage.txt)
 ```
@@ -45,6 +44,7 @@ OR
 ```
 2
 ```
+__________________________________________________________________
 ### Output
 #### It should display something similar to this:
 >Your account's privilege level is 2<br>
@@ -75,7 +75,7 @@ OR
 >nha pwd 0 3 2 <br>
 >amy is 0 4 0 <br>
 >cam bad 0 6 1 <br>
-
+__________________________________________________________________
 ## List of concepts related
 
 - CPU Scheduling
@@ -87,7 +87,7 @@ OR
 - System Calls
 
 - Direct Executions
-
+__________________________________________________________________
 ## Citation
 * [Geeks For Geeks MLFQ](https://www.geeksforgeeks.org/multilevel-feedback-queue-scheduling-mlfq-cpu-scheduling/)
 * [Scheduling Textbook](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf)
