@@ -60,6 +60,15 @@ Processes:
 
 >Average Response Time:   2.66667 <br>
 
+### Edit workload txt
+#### If you want to test different outputs, follow this format:
+>username password startTime burstTime privilegeLevel<br>
+
+
+>nha pwd 0 3 2 <br>
+>amy is 0 4 0 <br>
+>cam bad 0 6 1 <br>
+
 ## List of concepts related
 
 - CPU Scheduling
