@@ -19,10 +19,12 @@ The main idea of this project is to understand how MLFQ is implemented when orde
 ```
 git clone https://github.com/hacherio/Access-Scheduler
 ```
+### Make
 2. Type make to build the project
 ```
 make
 ```
+### Run
 3. Run login_app with any user (preferably on loginStorage.txt)
 ```
 ./login_app username@elnux
@@ -31,11 +33,32 @@ make
 ```
 ./login_app username@elnux
 ```
-
 3. Choose scheduler options (MLF, or Mystery fuunction), 
 ```
-./login_app username@elnux
+1 
 ```
+OR
+```
+2
+```
+### Display
+#### The ouput should be similar to this:
+>Your account's privilege level is 2<br>
+>Folder level-2 and higher are accessible<br>
+>Successfully logged in!<br>
+>Workload:
+         Arrival=0, Duration=3, Privilege=2
+         Arrival=0, Duration=4, Privilege=0
+         Arrival=0, Duration=6, Privilege=1
+
+Processes:
+         User Privilege=0, arrival=0, duration=0, first_run=1, completion=9
+         User Privilege=1, arrival=0, duration=0, first_run=7, completion=12
+         User Privilege=2, arrival=0, duration=0, first_run=0, completion=13
+<br>
+>Average Turnaround Time: 11.3333<br>
+
+>Average Response Time:   2.66667 <br>
 
 ## List of concepts related
 
