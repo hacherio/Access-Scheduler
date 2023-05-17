@@ -24,7 +24,10 @@ git clone https://github.com/hacherio/Access-Scheduler
 ```
 make
 ```
-#### BEFORE YOU RUN: REMOVE ALL TXT FILES IN THE LEVEL FOLDERS!!!
+__________________________________________________________________
+### (BEFORE YOU RUN: REMOVE ALL TXT FILES IN THE LEVEL FOLDERS!!!)
+__________________________________________________________________
+
 ### Run
 3. Run login_app with any user (preferably on loginStorage.txt)
 ```
