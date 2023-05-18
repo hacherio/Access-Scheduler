@@ -36,7 +36,7 @@ __________________________________________________________________
 ```
 ./login_app username@elnux
 ```
-3. Choose scheduler options (MLF, or Mystery fuunction), 
+3. Choose scheduler options (MLF or Mystery function):
 ```
 1 
 ```
