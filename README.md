@@ -32,7 +32,7 @@ __________________________________________________________________
 ```
 ./login_app username@elnux
 ```
-3. Type in pwassword (preferably on loginStorage.txt)
+3. Type in password (preferably on loginStorage.txt)
 ```
 ./login_app username@elnux
 ```
